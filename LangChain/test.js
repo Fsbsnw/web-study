@@ -1,6 +1,6 @@
 const { OpenAI } = require("langchain/llms/openai");
 
-const model = new OpenAI({ openAIApiKey: "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", temperature: 1, maxTokens: -1});
+const model = new OpenAI({ openAIApiKey: "", temperature: 1, maxTokens: -1});
 const msg = `앞으로 내가 제시하는 글들을 분석해서 밑에 정해놓은 양식에 맞게 답변해줘
 1. 제시된 글에 대한 전체적인 감정분석을 "긍정(x%) - 부정(y%) " 형식으로 보여줘
 2. 1번 결과가 도출된 이유를 제시된 글을 인용해서 문장형식으로 상세하게 설명해줘
